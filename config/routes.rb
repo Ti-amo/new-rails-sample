@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :images
   resources :books
   root 'static_pages#home'
 
